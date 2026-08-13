@@ -1,0 +1,34 @@
+/* ================= TABLET ================= */
+@media (max-width: 1024px) {
+  .navbar { padding: 15px 25px; }
+  .hero { padding: 0 25px; }
+  .row, .footer, .search-results { padding-left: 25px; padding-right: 25px; }
+  .hero-title { font-size: 2.6rem; }
+  .card { min-width: 200px; }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .search-box { width: 130px; }
+  .logo { font-size: 1.4rem; }
+  .hero { height: 70vh; }
+  .hero-title { font-size: 1.9rem; }
+  .hero-desc { font-size: 0.9rem; }
+  .card { min-width: 160px; }
+  .card img { height: 100px; }
+  .arrow { display: none; }
+  .footer-links { grid-template-columns: repeat(2, 1fr); }
+  .modal img { height: 180px; }
+}
+
+/* ================= SMALL PHONE ================= */
+@media (max-width: 480px) {
+  .navbar { padding: 12px 15px; }
+  .hero, .row, .footer, .search-results { padding-left: 15px; padding-right: 15px; }
+  .hero-buttons { flex-direction: column; align-items: flex-start; }
+  .btn { padding: 10px 20px; font-size: 0.9rem; }
+  .card { min-width: 140px; }
+  .footer-links { grid-template-columns: 1fr; }
+  .results-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+}
