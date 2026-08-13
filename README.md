@@ -5,7 +5,7 @@ This project recreates the look and feel of a streaming platform with a modern U
 
 ## 🚀 Live Demo
 
-Coming soon...
+https://netflix-clone-five-flax-82.vercel.app/
 
 ## 📌 Features
 
